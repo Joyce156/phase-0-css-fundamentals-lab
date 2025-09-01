@@ -1,5 +1,56 @@
-body {
-  width: 100%;
+body{
+  padding: 0%;
   height: 100%;
-  margin: 0;
+  background-color: white;
+
 }
+header h1{
+text-align: center;
+display: flex;
+justify-content: center;
+
+}
+header nav{
+text-align: center;
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+nav a{
+background-color: gray;
+
+}
+nav a:hover{
+  background-color: #555;
+}
+
+
+#featured-property img{
+padding: 0;
+margin: 0 auto;
+display: block;
+
+
+
+}
+#featured-property figcaption{
+text-align: center;
+
+
+}
+#featured-property p{
+text-align: center;
+margin: 10px;
+width: 600px;
+margin: 20px auto;
+
+}
+#details{
+background-color: red;
+display: flex;
+margin: 20px auto;
+justify-content: space-evenly;
+
+}
+
+
